@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'applicationAngular';
+  bgColor="yellow";
+  show:Boolean =false;
+  changeStatus(){
+    this.show = !this.show;
+  }
+
 }
